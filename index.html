@@ -30,16 +30,17 @@
                                 Plots
                             </a>
                             <ul class="dropdown-menu text-info bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-info bg-dark" href="#">Max Temperature</a></li>
-                                <li><a class="dropdown-item text-info bg-dark" href="#">Humidity</a></li>
-                                <li><a class="dropdown-item text-info bg-dark" href="#">Cloudiness</a></li>
-                                <li><a class="dropdown-item text-info bg-dark" href="#">Wind Speed</a></li>
+                                <li><a class="dropdown-item text-info bg-dark"
+                                        href="Resources/assets/images/lat_VS_maxTemp.jpg">Max Temperature</a></li>
+                                <li><a class="dropdown-item text-info bg-dark"
+                                        href="Resources/assets/images/northLat_VS_humidity.jpg">Humidity</a></li>
+                                <li><a class="dropdown-item text-info bg-dark"
+                                        href="Resources/assets/images/northLat_VS_cloudiness.jpg">Cloudiness</a></li>
+                                <li><a class="dropdown-item text-info bg-dark"
+                                        href="Resources/assets/images/northLat_VS_windSpeed.jpg">Wind Speed</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-info" aria-current="page"
-                                href="Visualization.html">Visualization</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link text-info" href="Comparisons.html">Comparisons</a>
                         </li>
@@ -52,30 +53,42 @@
         </nav>
     </div>
     <div class="container">
-        <img class="img-thumbnail float-start m-3 w-50" src="Resources/assets/images/heatmap.png" alt="Fig1">
-        <p class=" m-3  p-3">In this example, we will be using HTML to visualize the weather of 500+ cities
-            across the world of varying distance from the equator. </p>
-        <p>The objetive is to show how can we display the an
-            analysis previusly make in in a web page deployes in "Github Pages".</p>
-        <p>This analysis was made using a simple
-            Python library, the OpenWeatherMap API, and a little common sense to create a representative model of
-            weather across world cities.</p>
-        <p>The code for this analysis can be found in the next link: <a
-                href="https://github.com/Momoyactly/python-api-challenge">https://github.com/Momoyactly/python-api-challenge</a>
-        </p>
-        <p>
-            In the image we can see a heatmap of the before mentioned cities. The most red ones are coldest ones.
-        </p>
+        <div class="row ">
+            <div class="col-6 ">
+                <img class="img-thumbnail  m-3 " src="Resources/assets/images/heatmap.png" alt="Fig1">
+            </div>
+            <div class="col-6 p-3">
 
+                <p >In this example, we will be using HTML to visualize the weather of 500+ cities
+                    across the world of varying distance from the equator. </p>
+                <p>The objetive is to show how can we display the an
+                    analysis previusly make in in a web page deployes in "Github Pages".</p>
+                <p>This analysis was made using a simple
+                    Python library, the OpenWeatherMap API, and a little common sense to create a representative model
+                    of
+                    weather across world cities.</p>
+                <p>The code for this analysis can be found in the next link: <a
+                        href="https://github.com/Momoyactly/python-api-challenge">https://github.com/Momoyactly/python-api-challenge</a>
+                </p>
+                <p>
+                    In the image we can see a heatmap of the before mentioned cities. The most red ones are coldest
+                    ones.
+                </p>
+
+            </div>
+
+        </div>
     </div>
+
     <div class="container ">
-        <p>We make the analysis in using the next paramenters in the axis y:
+        <h2 class="text-info text-center">Parameters</h2>
+        <p>We make the analysis in using the next paramenters in the axis <strong>'Y'</strong>:
         <ul class="list-group list-group-flush">
-            <li class="list-group-item">Temperature</li>
+            <li class="list-group-item d-flex">Temperature</li>
             <li class="list-group-item">Humidity</li>
             <li class="list-group-item">Cloudiness</li>
             <li class="list-group-item">Wind Speed</li>
-        </ul> And in the axis 'X' is the latitude of the cities we mention before</p>
+        </ul> And in the axis <strong>'X'</strong> is the latitude of the cities we mention before</p>
         <p>
             In the navigation bar above you can access a Comparisons of the data,
         </p>
@@ -85,28 +98,30 @@
 
 
     <div class="container ">
-        <h1 class="text-info text-center">Visualitations</h1>
         <div class="row ">
-            <div class="col-md-6">
-                <div><a href="Resources/assets/images/lat_VS_maxTemp.jpg"><img class="img-thumbnail float-start m-3 "
-                            src="Resources/assets/images/lat_VS_maxTemp.jpg" alt="Fig1"></a>
-                </div>
+            <h1 class="text-info text-center">Visualitations</h1>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <a href="Resources/assets/images/lat_VS_maxTemp.jpg"><img class="img-thumbnail  m-3"
+                        src="Resources/assets/images/lat_VS_maxTemp.jpg" alt="Fig1"></a>
+
             </div>
-            <div class="col-md-6">
-                <div><a href="Resources/assets/images/northLat_VS_humidity.jpg"><img
-                            class="img-thumbnail float-start m-3 "
+            <div class="col-md-6 text-center">
+                <div><a href="Resources/assets/images/northLat_VS_humidity.jpg"><img class="img-thumbnail  m-3 "
                             src="Resources/assets/images/northLat_VS_humidity.jpg" alt="Fig2"></a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div><a href="Resources/assets/images/northLat_VS_cloudiness.jpg"><img
-                            class="img-thumbnail float-start m-3 "
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <div><a href="Resources/assets/images/northLat_VS_cloudiness.jpg"><img class="img-thumbnail  m-3 "
                             src="Resources/assets/images/northLat_VS_cloudiness.jpg" alt="Fig3"></a>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div><a href="Resources/assets/images/northLat_VS_windSpeed.jpg"><img
-                            class="img-thumbnail float-start m-3 "
+            <div class="col-md-6 text-center">
+                <div><a href="Resources/assets/images/northLat_VS_windSpeed.jpg"><img class="img-thumbnail  m-3 "
                             src="Resources/assets/images/northLat_VS_windSpeed.jpg" alt="Fig4"></a>
                 </div>
             </div>
