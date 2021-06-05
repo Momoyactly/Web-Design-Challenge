@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Design</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Latitude Analysis Dashboard with Attitude</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Summary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="Visualization.html">Visualization</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Comparisons.html">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="Data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
+        <div>
+            <p>The second requirement is to run linear regression on each relationship. This time, separate the plots
+                into
+                Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0
+                degrees latitude):</p>
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item">Northern Hemisphere - Temperature (F) vs. Latitude</li>
+                <li class="list-group-item"></li>
+                <li class="list-group-item">Northern Hemisphere - Humidity (%) vs. Latitude</li>
+                <li class="list-group-item">Southern Hemisphere - Humidity (%) vs. Latitude</li>
+                <li class="list-group-item">Northern Hemisphere - Cloudiness (%) vs. Latitude</li>
+                <li class="list-group-item">Southern Hemisphere - Cloudiness (%) vs. Latitude</li>
+                <li class="list-group-item">Northern Hemisphere - Wind Speed (mph) vs. Latitude</li>
+                <li class="list-group-item">Southern Hemisphere - Wind Speed (mph) vs. Latitude</li>
+            </ol>
+        </div>
+        <div class="container">
+            <h1>Visualitations</h1>
+            <div class="row ">
+                <div class="col-md-6">
+                    <div class="box skyblue border border-5 rounded">
+                        <h2>Northern Hemisphere - Temperature (F) vs. Latitude</h2>
+                        <img class="fig" src="Resources/assets/images/Fig1.png" alt="Fig1">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="box skyblue border border-5 rounded">
+                        <h2>Southern Hemisphere - Temperature (F) vs. Latitude</h2>
+                        <img class="fig" src="Resources/assets/images/Fig1.png" alt="Fig1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Northern Hemisphere - Humidity (%) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig2.png" alt="Fig2">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Southern Hemisphere - Humidity (%) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig3.png" alt="Fig3">
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Northern Hemisphere - Cloudiness (%) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig4.png" alt="Fig4">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Southern Hemisphere - Cloudiness (%) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig1.png" alt="Fig1">
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Northern Hemisphere - Wind Speed (mph) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig4.png" alt="Fig4">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="box skyblue border border-5 rounded">
+                    <h2>Southern Hemisphere - Wind Speed (mph) vs. Latitude</h2>
+                    <img class="fig" src="Resources/assets/images/Fig4.png" alt="Fig4">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
