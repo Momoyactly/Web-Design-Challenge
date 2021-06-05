@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div >
+    <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
             <div class="container-fluid  ">
                 <a class="navbar-brand  text-info  " href="index.html">Latitude Analysis Dashboard with Attitude</a>
@@ -23,20 +23,22 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Plots
+                            <a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
                             </a>
                             <ul class="dropdown-menu text-info bg-dark" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item text-info bg-dark" href="#">Max Temperature</a></li>
-                              <li><a class="dropdown-item text-info bg-dark" href="#">Humidity</a></li>
-                              <li><a class="dropdown-item text-info bg-dark" href="#">Cloudiness</a></li>
-                              <li><a class="dropdown-item text-info bg-dark" href="#">Wind Speed</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Max Temperature</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Humidity</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Cloudiness</a></li>
+                                <li><a class="dropdown-item text-info bg-dark" href="#">Wind Speed</a></li>
                             </ul>
-                          </li>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info" aria-current="page" href="Visualization.html">Visualization</a>
+                            <a class="nav-link text-info" aria-current="page"
+                                href="Visualization.html">Visualization</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-info" href="Comparisons.html">Comparisons</a>
@@ -49,35 +51,54 @@
             </div>
         </nav>
     </div>
-    <div>
-        <img id="fig1" src="Resources/assets/images/Fig1.png" alt="Fig1">
-        <p >In this example, you'll be creating a Python script to visualize the weather of 500+ cities
-            across the world of varying distance from the equator. To accomplish this, you'll be utilizing a simple
+    <div class="container">
+        <img class="img-thumbnail float-start m-3 w-50" src="Resources/assets/images/Fig1.png" alt="Fig1">
+        <p class=" m-3  p-3">In this example, we will be using HTML to visualize the weather of 500+ cities
+            across the world of varying distance from the equator. </p>
+        <p>the objetive is to show how can we display the an
+            analysis previusly make in in a web page deployes in "Github Pages".</p>
+        <p>This analysis was made using a simple
             Python library, the OpenWeatherMap API, and a little common sense to create a representative model of
             weather across world cities.</p>
-        <p>We make the analysis in Temperature, Humidity, Cloudiness and wind speed, all of this versus the latitudes of the cities.</p>
-
-
+        <p>The code for this analysis can be found in the next link: <a
+                href="https://github.com/Momoyactly/python-api-challenge">https://github.com/Momoyactly/python-api-challenge</a>
+        </p>
+        <br>
+    </div>
+    <div class="container ">
+        <p>We make the analysis in using the next paramenters in the axis y:
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Temperature</li>
+            <li class="list-group-item">Humidity</li>
+            <li class="list-group-item">Cloudiness</li>
+            <li class="list-group-item">Wind Speed</li>
+        </ul> And in the axis 'X' is the latitude of the cities we mention before</p>
+        <p>
+            In the navigation bar above you can access a Comparisons of the data,
+        </p>
     </div>
 
-    <div class="container">
-        <h1 class="text-info">Visualitations</h1>
+
+
+
+    <div class="container ">
+        <h1 class="text-info text-center">Visualitations</h1>
         <div class="row ">
             <div class="col-md-6">
-                <div class="box skyblue border border-5 rounded"><img class="fig" src="Resources/assets/images/Fig1.png"
-                        alt="Fig1"></div>
+                <div><img class="img-thumbnail float-start m-3 " src="Resources/assets/images/Fig1.png" alt="Fig1">
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="box skyblue border border-5 rounded"><img class="fig" src="Resources/assets/images/Fig2.png"
-                        alt="Fig2"></div>
+                <div><img class="img-thumbnail float-start m-3 " src="Resources/assets/images/Fig2.png" alt="Fig2">
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="box skyblue border border-5 rounded"><img class="fig" src="Resources/assets/images/Fig3.png"
-                        alt="Fig3"></div>
+                <div><img class="img-thumbnail float-start m-3 " src="Resources/assets/images/Fig3.png" alt="Fig3">
+                </div>
             </div>
             <div class="col-md-6">
-                <div class="box skyblue border border-5 rounded"><img class="fig" src="Resources/assets/images/Fig4.png"
-                        alt="Fig4"></div>
+                <div><img class="img-thumbnail float-start m-3 " src="Resources/assets/images/Fig4.png" alt="Fig4">
+                </div>
             </div>
         </div>
 

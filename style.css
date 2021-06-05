@@ -1,25 +1,4 @@
-
-#fig1 {
-    width: 30%;
-    height: 50%;
-    margin-right: 20px;
-    float: left;
-  }
 .fig {
-    width: 90%;
-    height: 90%;
-    margin-right: 20px;
-  }
-
-
-  @media (max-width: 600px) {
-    .navbar_hide {
-      padding: 10px;
-      visibility: hidden;
-    } 
-  
-   
-    .navbar  {
-      visibility: visible;
-    }
-  }
+    width:50%;
+    
+}
